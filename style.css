@@ -1,0 +1,79 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+body{
+	min-height: 100vh;
+	display: flex; justify-content: center;
+	align-items: center;
+	background-color: #ddd;
+	font-family: 'Poppins', sans-serif;
+}
+
+.card{
+	width: 320px;
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 20px 25px rgba(97, 161, 221,0.2);
+	text-align: center;
+}
+
+.card-header{
+	padding: 45px 0;
+	background-image: linear-gradient(50deg,#A9DFBF,#34495E);
+}
+
+.card-header img{
+	width: 150px; height: 160px;
+	object-fit: scale-down;
+	border-radius: 60%;
+	box-shadow: 0 10px 30px #FBFCFC;
+}
+
+.card-body{
+	color: #565656;
+	padding:35px;
+}
+
+.card-body h2{
+	text-transform: uppercase; font-size: 24px;
+}
+
+.card-body .username{
+	font-size: 20px; color: #34495E;
+}
+
+.card-body .social-media-list{
+	display: flex;
+	justify-content: center;
+	margin: 25px 0;
+}
+
+.card-body .social-media-list a{
+	text-decoration: none;
+	color:#212F3D  ;
+	transition: all 0.3s;
+	font-size: 30px;
+}
+
+.card-body .social-media-list a:hover{
+	color:#F1C40F ;
+}
+
+.card-body .social-media-list a:not(:last-child){
+	margin-right: 28px;
+}
+
+.card-body .about{ margin-bottom: 30px; }
+
+.card-body .btn{
+	display: inline-block;
+	text-decoration: none;
+	padding: 16px 48px;
+	background-image: linear-gradient(60deg,#76D7C4,#34495E);
+	color: #273746;
+	border-radius: 100px;
+	margin-bottom: 10px;
+	transition: all 0.3s;
+}
+
+.card-body .btn:hover{ opacity: 0.8; }
